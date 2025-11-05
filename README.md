@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧠 Few-Shot Conversational Text Classifier (MAML + NLP)
 
 This project demonstrates a **few-shot learning-based conversational intent classifier** built using **Model-Agnostic Meta-Learning (MAML)**.  
@@ -38,3 +39,6 @@ notebooks/ → Colab training code
    python app.py
 
 Open frontend/index.html in your browser to test the UI.
+=======
+# maml_chat_classifier
+>>>>>>> de3c70fc3a058b9c6ab67c7f1ee16dadf8b53ba0
