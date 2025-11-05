@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAML Conversation Classifier</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Few-Shot Conversational Text Classifier</h1>
+    <p>Adapt the model with your own examples and classify new chats instantly.</p>
+
+    <div class="section">
+      <h2>Step 1: Define Your Categories</h2>
+      <input id="categories" placeholder="e.g. Complaint, Query, Feedback" />
+    </div>
+
+    <div class="section">
+      <h2>Step 2: Provide Few Examples</h2>
+      <textarea id="examples" rows="6" placeholder="Format:
+Complaint: My order is late again.
+Query: Can I change my address?
+Feedback: Great service, thank you!"></textarea>
+      <button id="train-btn">Train Model</button>
+    </div>
+
+    <div class="section">
+      <h2>Step 3: Test a New Conversation</h2>
+      <textarea id="test-text" rows="3" placeholder="Enter a new chat to classify"></textarea>
+      <button id="predict-btn">Classify</button>
+    </div>
+
+    <div class="section" id="result">
+      <h2>🔍 Result</h2>
+      <p id="prediction">No prediction yet.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
