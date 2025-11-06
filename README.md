@@ -1,4 +1,4 @@
-# 🧠 Few-Shot Conversational Text Classifier (MAML + NLP)
+# Few-Shot Conversational Text Classifier (MAML + NLP)
 
 This project demonstrates a **few-shot learning-based conversational intent classifier** built using **Model-Agnostic Meta-Learning (MAML)**.  
 It adapts quickly to new conversation domains (e.g., complaints, queries, feedback) with very few examples.
